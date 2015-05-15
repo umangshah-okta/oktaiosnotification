@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A24C751B068FE400ED647D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C741B068FE400ED647D /* main.m */; };
+		11A24C781B068FE400ED647D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C771B068FE400ED647D /* AppDelegate.m */; };
+		11A24C7B1B068FE400ED647D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C7A1B068FE400ED647D /* ViewController.m */; };
+		11A24C7E1B068FE400ED647D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A24C7C1B068FE400ED647D /* Main.storyboard */; };
+		11A24C801B068FE400ED647D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A24C7F1B068FE400ED647D /* Images.xcassets */; };
+		11A24C831B068FE400ED647D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A24C811B068FE400ED647D /* LaunchScreen.xib */; };
+		11A24C8F1B068FE400ED647D /* Okta_Notification_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C8E1B068FE400ED647D /* Okta_Notification_ExampleTests.m */; };
+		11A24C9A1B06915200ED647D /* RemoteNotificationPoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C991B06915200ED647D /* RemoteNotificationPoller.m */; };
+		11A24C9E1B06A1FC00ED647D /* RemotePollerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24C9D1B06A1FC00ED647D /* RemotePollerOperation.m */; };
+		11A24CA11B06A59D00ED647D /* RemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A24CA01B06A59D00ED647D /* RemoteNotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A24C891B068FE400ED647D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A24C671B068FE400ED647D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A24C6E1B068FE400ED647D;
+			remoteInfo = "Okta Notification Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A24C6F1B068FE400ED647D /* Okta Notification Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Okta Notification Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A24C731B068FE400ED647D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A24C741B068FE400ED647D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11A24C761B068FE400ED647D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11A24C771B068FE400ED647D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11A24C791B068FE400ED647D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11A24C7A1B068FE400ED647D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11A24C7D1B068FE400ED647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A24C7F1B068FE400ED647D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11A24C821B068FE400ED647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11A24C881B068FE400ED647D /* Okta Notification ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Okta Notification ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A24C8D1B068FE400ED647D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A24C8E1B068FE400ED647D /* Okta_Notification_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Okta_Notification_ExampleTests.m; sourceTree = "<group>"; };
+		11A24C981B06915200ED647D /* RemoteNotificationPoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationPoller.h; sourceTree = "<group>"; };
+		11A24C991B06915200ED647D /* RemoteNotificationPoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationPoller.m; sourceTree = "<group>"; };
+		11A24C9C1B06A1FC00ED647D /* RemotePollerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemotePollerOperation.h; sourceTree = "<group>"; };
+		11A24C9D1B06A1FC00ED647D /* RemotePollerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemotePollerOperation.m; sourceTree = "<group>"; };
+		11A24C9F1B06A59D00ED647D /* RemoteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotification.h; sourceTree = "<group>"; };
+		11A24CA01B06A59D00ED647D /* RemoteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotification.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A24C6C1B068FE400ED647D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A24C851B068FE400ED647D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A24C661B068FE400ED647D = {
+			isa = PBXGroup;
+			children = (
+				11A24C711B068FE400ED647D /* Okta Notification Example */,
+				11A24C8B1B068FE400ED647D /* Okta Notification ExampleTests */,
+				11A24C701B068FE400ED647D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A24C701B068FE400ED647D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C6F1B068FE400ED647D /* Okta Notification Example.app */,
+				11A24C881B068FE400ED647D /* Okta Notification ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A24C711B068FE400ED647D /* Okta Notification Example */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C9B1B06A1BF00ED647D /* RemotePoller */,
+				11A24C761B068FE400ED647D /* AppDelegate.h */,
+				11A24C771B068FE400ED647D /* AppDelegate.m */,
+				11A24C791B068FE400ED647D /* ViewController.h */,
+				11A24C7A1B068FE400ED647D /* ViewController.m */,
+				11A24C7C1B068FE400ED647D /* Main.storyboard */,
+				11A24C7F1B068FE400ED647D /* Images.xcassets */,
+				11A24C811B068FE400ED647D /* LaunchScreen.xib */,
+				11A24C721B068FE400ED647D /* Supporting Files */,
+			);
+			path = "Okta Notification Example";
+			sourceTree = "<group>";
+		};
+		11A24C721B068FE400ED647D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C731B068FE400ED647D /* Info.plist */,
+				11A24C741B068FE400ED647D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A24C8B1B068FE400ED647D /* Okta Notification ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C8E1B068FE400ED647D /* Okta_Notification_ExampleTests.m */,
+				11A24C8C1B068FE400ED647D /* Supporting Files */,
+			);
+			path = "Okta Notification ExampleTests";
+			sourceTree = "<group>";
+		};
+		11A24C8C1B068FE400ED647D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C8D1B068FE400ED647D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A24C9B1B06A1BF00ED647D /* RemotePoller */ = {
+			isa = PBXGroup;
+			children = (
+				11A24C981B06915200ED647D /* RemoteNotificationPoller.h */,
+				11A24C991B06915200ED647D /* RemoteNotificationPoller.m */,
+				11A24C9C1B06A1FC00ED647D /* RemotePollerOperation.h */,
+				11A24C9D1B06A1FC00ED647D /* RemotePollerOperation.m */,
+				11A24C9F1B06A59D00ED647D /* RemoteNotification.h */,
+				11A24CA01B06A59D00ED647D /* RemoteNotification.m */,
+			);
+			name = RemotePoller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A24C6E1B068FE400ED647D /* Okta Notification Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A24C921B068FE400ED647D /* Build configuration list for PBXNativeTarget "Okta Notification Example" */;
+			buildPhases = (
+				11A24C6B1B068FE400ED647D /* Sources */,
+				11A24C6C1B068FE400ED647D /* Frameworks */,
+				11A24C6D1B068FE400ED647D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Okta Notification Example";
+			productName = "Okta Notification Example";
+			productReference = 11A24C6F1B068FE400ED647D /* Okta Notification Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A24C871B068FE400ED647D /* Okta Notification ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A24C951B068FE400ED647D /* Build configuration list for PBXNativeTarget "Okta Notification ExampleTests" */;
+			buildPhases = (
+				11A24C841B068FE400ED647D /* Sources */,
+				11A24C851B068FE400ED647D /* Frameworks */,
+				11A24C861B068FE400ED647D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A24C8A1B068FE400ED647D /* PBXTargetDependency */,
+			);
+			name = "Okta Notification ExampleTests";
+			productName = "Okta Notification ExampleTests";
+			productReference = 11A24C881B068FE400ED647D /* Okta Notification ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A24C671B068FE400ED647D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Okta Inc.";
+				TargetAttributes = {
+					11A24C6E1B068FE400ED647D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					11A24C871B068FE400ED647D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 11A24C6E1B068FE400ED647D;
+					};
+				};
+			};
+			buildConfigurationList = 11A24C6A1B068FE400ED647D /* Build configuration list for PBXProject "Okta Notification Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A24C661B068FE400ED647D;
+			productRefGroup = 11A24C701B068FE400ED647D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A24C6E1B068FE400ED647D /* Okta Notification Example */,
+				11A24C871B068FE400ED647D /* Okta Notification ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A24C6D1B068FE400ED647D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A24C7E1B068FE400ED647D /* Main.storyboard in Resources */,
+				11A24C831B068FE400ED647D /* LaunchScreen.xib in Resources */,
+				11A24C801B068FE400ED647D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A24C861B068FE400ED647D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A24C6B1B068FE400ED647D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A24C7B1B068FE400ED647D /* ViewController.m in Sources */,
+				11A24C9E1B06A1FC00ED647D /* RemotePollerOperation.m in Sources */,
+				11A24C781B068FE400ED647D /* AppDelegate.m in Sources */,
+				11A24C9A1B06915200ED647D /* RemoteNotificationPoller.m in Sources */,
+				11A24CA11B06A59D00ED647D /* RemoteNotification.m in Sources */,
+				11A24C751B068FE400ED647D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A24C841B068FE400ED647D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A24C8F1B068FE400ED647D /* Okta_Notification_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A24C8A1B068FE400ED647D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A24C6E1B068FE400ED647D /* Okta Notification Example */;
+			targetProxy = 11A24C891B068FE400ED647D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A24C7C1B068FE400ED647D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A24C7D1B068FE400ED647D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A24C811B068FE400ED647D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A24C821B068FE400ED647D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A24C901B068FE400ED647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11A24C911B068FE400ED647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A24C931B068FE400ED647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Okta Notification Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11A24C941B068FE400ED647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Okta Notification Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11A24C961B068FE400ED647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Okta Notification ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okta Notification Example.app/Okta Notification Example";
+			};
+			name = Debug;
+		};
+		11A24C971B068FE400ED647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Okta Notification ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okta Notification Example.app/Okta Notification Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A24C6A1B068FE400ED647D /* Build configuration list for PBXProject "Okta Notification Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A24C901B068FE400ED647D /* Debug */,
+				11A24C911B068FE400ED647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A24C921B068FE400ED647D /* Build configuration list for PBXNativeTarget "Okta Notification Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A24C931B068FE400ED647D /* Debug */,
+				11A24C941B068FE400ED647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11A24C951B068FE400ED647D /* Build configuration list for PBXNativeTarget "Okta Notification ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A24C961B068FE400ED647D /* Debug */,
+				11A24C971B068FE400ED647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A24C671B068FE400ED647D /* Project object */;
+}
