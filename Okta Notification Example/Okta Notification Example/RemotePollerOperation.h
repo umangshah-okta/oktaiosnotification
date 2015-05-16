@@ -16,5 +16,6 @@ typedef NSArray *(^RemoteFetchBlock)();
 @end
 
 @interface RemotePollerOperation : NSOperation
+@property (nonatomic, weak) id <RemotePollerOperationDelegate>remotePollerOperationDelegate;
 - (instancetype)initWithRemoteFetchBlock:(RemoteFetchBlock)remoteFetchBlock andInterval:(int)interval;
 @end

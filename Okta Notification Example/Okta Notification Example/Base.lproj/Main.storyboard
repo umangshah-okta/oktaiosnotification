@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-Ym-C4k">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-Ym-C4k">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="68"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0v4-eg-zDa">
@@ -44,7 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="distanceFromTop" destination="JtV-xS-MEO" id="Nio-vv-MPN"/>
+                        <outlet property="distanceFromTop" destination="JtV-xS-MEO" id="RV1-uH-nFi"/>
                         <outlet property="message" destination="0v4-eg-zDa" id="JfX-g1-HFb"/>
                         <outlet property="notificationHeight" destination="7es-ij-LYD" id="GeH-tf-R5V"/>
                     </connections>

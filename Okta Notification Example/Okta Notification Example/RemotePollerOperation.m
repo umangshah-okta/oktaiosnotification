@@ -10,7 +10,6 @@
 
 @interface RemotePollerOperation ()
 @property (nonatomic, copy) RemoteFetchBlock remoteFetchBlock;
-@property (nonatomic, weak) id <RemotePollerOperationDelegate> remotePollerOperationDelegate;
 @property (nonatomic, assign) int interval;
 @end
 

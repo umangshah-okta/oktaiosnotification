@@ -22,7 +22,7 @@
         RemoteNotification *notification = [[RemoteNotification alloc] init];
         notification.channel = @"all";
         notification.message = @"hello every one";
-        return @[notification];
+        return @[notification, notification];
     }];
     return YES;
 }

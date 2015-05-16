@@ -27,8 +27,8 @@
         remoteNotificationPoller.pollingQueue = [[NSOperationQueue alloc] init];
         remoteNotificationPoller.pollingQueue.name = @"Remote Notification Polling Queue";
         remoteNotificationPoller.pollingQueue.maxConcurrentOperationCount = 1;
-        
-        remoteNotificationPoller.interval = 10;
+        remoteNotificationPoller.active = NO;
+        remoteNotificationPoller.interval = 50;
     });
     return remoteNotificationPoller;
 }
@@ -44,6 +44,7 @@
         }
         self.active = YES;
         RemotePollerOperation *pollingOperation = [[RemotePollerOperation alloc] initWithRemoteFetchBlock:self.remoteFetchBlock andInterval:self.interval];
+        pollingOperation.remotePollerOperationDelegate = self;
         [self.pollingQueue addOperation:pollingOperation];
     }];
 }
@@ -61,6 +62,7 @@
             return;
         }
         RemotePollerOperation *pollingOperation = [[RemotePollerOperation alloc] initWithRemoteFetchBlock:self.remoteFetchBlock andInterval:self.interval];
+        pollingOperation.remotePollerOperationDelegate = self;
         [self.pollingQueue addOperation:pollingOperation];
     }];
 }
